@@ -1,3 +1,10 @@
+---
+layout: page
+title: This is Page Two
+tagline: don't let the first page fool you, the second one is the best
+description: a short description of the first page
+---
+
 ## magic
 
 Blue bottle migas wolf vaporware celiac typewriter +1 vinyl enamel pin tattooed
