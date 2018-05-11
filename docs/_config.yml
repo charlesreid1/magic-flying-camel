@@ -8,14 +8,12 @@ highlighter: rouge
 title : ninja throwing stars
 author :
   name : charles beavo reid
-  github : charlesreid1
-  repo : camel-spit
 
-footer_url : https://github.com/charlesreid1/camel-spit
-footer_text : camel-spit on github
+footer_url : https://github.com/charlesreid1/magic-flying-camel
+footer_text : magic-flying-camel on github
 
 
-production_url : https://charlesreid1.github.io/camel-spit
+production_url : https://charlesreid1.github.io/magic-flying-camel
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
@@ -50,7 +48,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-  BASE_PATH : https://charlesreid1.github.io/camel-spit
+  BASE_PATH : https://charlesreid1.github.io/magic-flying-camel
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -60,7 +58,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://charlesreid1.github.io/camel-spit/assets
+  ASSET_PATH : https://charlesreid1.github.io/magic-flying-camel/assets
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
