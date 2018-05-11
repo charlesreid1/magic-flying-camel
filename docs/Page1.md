@@ -1,3 +1,10 @@
+---
+layout: page
+title: This is Page One
+tagline: the first page is the best
+description: a short description of the first page
+---
+
 ## magic
 
 Lorem ipsum dolor amet swag food truck hexagon, everyday carry neutra ennui ugh
