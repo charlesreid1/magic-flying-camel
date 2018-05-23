@@ -22,6 +22,7 @@ Ruby black hole...)
 The `docs/` folder contains some Ruby files that you can use
 to configure the site.
 
+
 ## Quick start: no ruby
 
 If you want to avoid using Ruby...
@@ -34,7 +35,7 @@ $ git clone https://github.com/charlesreid1/magic-flying-camel
 $ cd magic-flying-camel
 ```
 
-Copy the `docs/` folder to your own repository:
+Copy the `docs/` folder to **your own repository**:
 
 ```
 $ cp -r docs /path/to/my/repo/docs
