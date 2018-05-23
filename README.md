@@ -16,10 +16,8 @@ to assemble the final page's static content.
 
 Github Pages does the actual work of assembling the 
 static content. It offers this service for free,
-if you agree to use Jekyll...
-
-(This sucks you into the JS/Ruby environment. 
-Don't do it! It's a trap!)
+if you agree to use Jekyll... (and get drawn into the 
+Ruby black hole...)
 
 The `docs/` folder contains some Ruby files that you can use
 to configure the site.
@@ -51,6 +49,8 @@ These are located in a YAML file: `docs/_config.yml`.
 You can add Markdown files to the `docs/` folder and they will
 be rendered in the final site. Use magic-flying-camel as an example
 of how to create a multi-site static site where things inter-link.
+
+Don't forge the **Last Step** (below).
 
 ## Hosting locally: with ruby
 
@@ -100,4 +100,18 @@ $ jekyll serve
 ```
 
 available now on port 4000!
+
+Don't forge the **Last Step**.
+
+## The Last Step
+
+The last thing you'll need to do is change the settings of your 
+repository to turn on Github Pages. From the repository page,
+click Settings, and scroll down to the section called "Github
+Pages". From the drop-down menu, select "Use the /docs folder
+for Github Pages." This will automatically look for a Jekyll
+site in `/docs` and will render it into a final static page
+when you update its contents.
+
+![Settings view](https://user-images.githubusercontent.com/368075/39915952-26af2ac6-54be-11e8-8729-2f8b2d9575bf.png)
 
