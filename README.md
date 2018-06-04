@@ -1,6 +1,12 @@
 # magic flying camel
 
-Walkthrough of how to get a simple Jekyll Github Pages 
+This repository contains a starter "seed" for creating a Jekyll-based Github Pages page. 
+
+If your repository is located at `github.com/<user>/<repo-name>`, the Github Pages page will be available at `<user>.github.io/<repo-name>`.
+
+Jekyll is a ruby-based package for creating a static site - a site composed of HTML/JS/CSS files, which is basically anything that doesn't require the server to do a lot of computation. Github hosts these files so they're served quickly and reliably.
+
+This is a walkthrough of how to get a simple Jekyll Github Pages 
 page all set up.
 
 ## How it works
@@ -51,7 +57,7 @@ You can add Markdown files to the `docs/` folder and they will
 be rendered in the final site. Use magic-flying-camel as an example
 of how to create a multi-site static site where things inter-link.
 
-Don't forge the **Last Step** (below).
+Don't forget the **Last Step** (below).
 
 ## Hosting locally: with ruby
 
@@ -102,7 +108,7 @@ $ jekyll serve
 
 available now on port 4000!
 
-Don't forge the **Last Step**.
+Don't forget the **Last Step**.
 
 ## The Last Step
 
