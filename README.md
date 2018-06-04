@@ -111,8 +111,25 @@ repository to turn on Github Pages. From the repository page,
 click Settings, and scroll down to the section called "Github
 Pages". From the drop-down menu, select "Use the /docs folder
 for Github Pages." This will automatically look for a Jekyll
-site in `/docs` and will render it into a final static page
-when you update its contents.
+site in a directory called `docs/` in your repo and will 
+render it into a final static page (Github takes care of the 
+Ruby stuff). When you update its contents in a commit or various
+commits, and you push commits to Github (in plain English:
+if you run
+
+```
+git push origin gh-pages
+```
+
+after making commits to the `gh-pages` branch), Github will
+automatically use Jekyll (which is a Ruby package) to create
+static content, and the updated contents will be available at
+
+```
+https://<user>.github.io/<repo-name>
+```
+
+soon after.
 
 ![Settings view](https://user-images.githubusercontent.com/368075/39915952-26af2ac6-54be-11e8-8729-2f8b2d9575bf.png)
 
