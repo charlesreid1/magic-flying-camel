@@ -57,7 +57,7 @@ You can add Markdown files to the `docs/` folder and they will
 be rendered in the final site. Use magic-flying-camel as an example
 of how to create a multi-site static site where things inter-link.
 
-Don't forge the **Last Step** (below).
+Don't forget the **Last Step** (below).
 
 ## Hosting locally: with ruby
 
@@ -108,7 +108,7 @@ $ jekyll serve
 
 available now on port 4000!
 
-Don't forge the **Last Step**.
+Don't forget the **Last Step**.
 
 ## The Last Step
 
