@@ -1,6 +1,12 @@
 # magic flying camel
 
-Walkthrough of how to get a simple Jekyll Github Pages 
+This repository contains a starter "seed" for creating a Jekyll-based Github Pages page. 
+
+If your repository is located at `github.com/<user>/<repo-name>`, the Github Pages page will be available at `<user>.github.io/<repo-name>`.
+
+Jekyll is a ruby-based package for creating a static site - a site composed of HTML/JS/CSS files, which is basically anything that doesn't require the server to do a lot of computation. Github hosts these files so they're served quickly and reliably.
+
+This is a walkthrough of how to get a simple Jekyll Github Pages 
 page all set up.
 
 ## How it works
